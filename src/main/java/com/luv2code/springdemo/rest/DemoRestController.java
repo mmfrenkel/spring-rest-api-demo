@@ -13,4 +13,9 @@ public class DemoRestController {
 		return "Hello World!";
 	}
 	
+	@GetMapping("/")
+	public String main() {
+		return "index";
+	}
+	
 }
